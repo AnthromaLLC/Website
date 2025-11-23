@@ -635,7 +635,7 @@ const PrivacyPolicy = () => {
        <br>
        <br>
        <strong>
-       <h2>1. WHAT INFORMATION DO WE COLLECT?</h2>
+       <h2 id="infocollect">1. WHAT INFORMATION DO WE COLLECT?</h2>
        </strong><strong>
        <h3>Personal information you disclose to us</h3>
        </strong><strong><em>In
@@ -699,7 +699,7 @@ const PrivacyPolicy = () => {
       
        <br>
        <strong>
-       <h2>2. HOW DO WE PROCESS YOUR INFORMATION?</h2>
+       <h2 id="infouse">2. HOW DO WE PROCESS YOUR INFORMATION?</h2>
        </strong><strong><em>In Short: </em></strong><em>We
        process your information to provide, improve, and administer our
        Services, communicate with you, for security and fraud prevention, and
@@ -809,7 +809,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>3.
+       <h2 id="whoshare">3.
        WHEN
        AND
        WITH
@@ -912,7 +912,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>4.
+       <h2 id="inforetain">4.
        HOW
        LONG
        DO
@@ -1038,7 +1038,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>5.
+       <h2 id="infosafe">5.
        HOW
        DO
        WE
@@ -1192,7 +1192,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>6.
+       <h2 id="infominors">6.
        DO
        WE
        COLLECT
@@ -1349,7 +1349,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>7.
+       <h2 id="privacyrights">7.
        WHAT
        ARE
        YOUR
@@ -1511,7 +1511,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>8.
+       <h2 id="DNT">8.
        CONTROLS
        FOR
        DO-NOT-TRACK
@@ -1687,7 +1687,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>9.
+       <h2 id="uslaws">9.
        DO
        UNITED
        STATES
@@ -3549,7 +3549,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>10.
+       <h2 id="policyupdates">10.
        DO
        WE
        MAKE
@@ -3658,7 +3658,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>11.
+       <h2 id="contact">11.
        HOW
        CAN
        YOU
@@ -3698,7 +3698,7 @@ const PrivacyPolicy = () => {
        <br>
       
        <strong>
-       <h2>12.
+       <h2 id="request">12.
        HOW
        CAN
        YOU
@@ -3812,11 +3812,7 @@ const TermsOfService = () => {
       " " <strong>we</strong>,
       " " <strong>us</strong>,
       " " <strong>our</strong>"), a company registered in New York, United States at 418 Broadway STE N, Albany, NY 12207.<br>We operate the website (the "<strong>Site</strong>"), the mobile application (the "<strong>App</strong>"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").<br>You can contact us by phone at 347-422-3329, email at support@anthroma.com, or by mail to 418 Broadway STE N, Albany, NY 12207, United States.<br>These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (" <strong>you</strong>"), and Anthroma LLC, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.<br><br>The
-       Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.<br>We recommend that you print a copy of these Legal Terms for your records.<br><strong><h2>TABLE OF CONTENTS</h2></strong><a href="#services">1. OUR SERVICES</a><br><a href="#ip">2. INTELLECTUAL PROPERTY RIGHTS</a><br><a href="#userreps">3. USER REPRESENTATIONS</a><br><a href="#purchases">4. PURCHASES AND PAYMENT</a><br><a href="#prohibited">5. PROHIBITED ACTIVITIES</a><br><a href="#ugc">6. USER GENERATED CONTRIBUTIONS</a><br><a href="#license">7. CONTRIBUTION LICENSE</a><br><a href="#mobile">8. MOBILE APPLICATION LICENSE</a><br><a href="#thirdparty">9. THIRD-PARTY WEBSITES AND CONTENT</a><br><a href="#sitemanage">10. SERVICES MANAGEMENT</a><br><a href="#ppyes">11. PRIVACY POLICY</a><br><a href="#terms">12. TERM AND TERMINATION</a><br><a href="#modifications">13. MODIFICATIONS AND INTERRUPTIONS</a><br><a href="#law">14. GOVERNING LAW</a><br><a href="#disputes">15. DISPUTE RESOLUTION</a><br><a href="#corrections">16. CORRECTIONS</a><br><a href="#disclaimer">17. DISCLAIMER</a><br><a href="#liability">18. LIMITATIONS OF LIABILITY</a><br><a href="#indemnification">19. INDEMNIFICATION</a><br><a href="#userdata">20. USER DATA</a><br><a href="#electronic">21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</a><br><a href="#california">22. CALIFORNIA USERS AND RESIDENTS</a><br><a href="#misc">23. MISCELLANEOUS</a><br><a href="#contact">24. CONTACT US</a><a name="_b6y29mp52qvx"></a><br><strong><h2>1. OUR SERVICES</h2></strong>The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly,
-      those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws,
-      if and to the extent local laws are applicable.<br>The Services are not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.),
-      so if your interactions would be subjected to such laws,
-      you may not use the Services. You may not use the Services in a way that would violate the Gramm-Leach-Bliley Act (GLBA).<br><strong><h2>2. INTELLECTUAL PROPERTY RIGHTS</h2></strong><strong><h3>Our intellectual property</h3></strong>We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the " Content"), as well as the trademarks, service marks, and logos contained therein (the " Marks").<br>Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.<br>The Content and Marks are provided in or through the Services " AS IS" for your personal, non-commercial use only.<strong><h3>Your use of our Services</h3></strong>Subject to your compliance with these Legal Terms, including the " <a href="#prohibited">PROHIBITED ACTIVITIES</a>" section below, we grant you a non-exclusive, non-transferable, revocable license to:<ul><li>access the Services; and</li><li>download or print a copy of any portion of the Content to which you have properly gained access,</li></ul>solely for your personal, non-commercial use.<br>Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced,
+       Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.<br>We recommend that you print a copy of these Legal Terms for your records.<br><strong><h2>TABLE OF CONTENTS</h2></strong><a href="#services">1. OUR SERVICES</a><br><a href="#ip">2. INTELLECTUAL PROPERTY RIGHTS</a><br><a href="#userreps">3. USER REPRESENTATIONS</a><br><a href="#purchases">4. PURCHASES AND PAYMENT</a><br><a href="#prohibited">5. PROHIBITED ACTIVITIES</a><br><a href="#ugc">6. USER GENERATED CONTRIBUTIONS</a><br><a href="#license">7. CONTRIBUTION LICENSE</a><br><a href="#mobile">8. MOBILE APPLICATION LICENSE</a><br><a href="#thirdparty">9. THIRD-PARTY WEBSITES AND CONTENT</a><br><a href="#sitemanage">10. SERVICES MANAGEMENT</a><br><a href="#ppyes">11. PRIVACY POLICY</a><br><a href="#terms">12. TERM AND TERMINATION</a><br><a href="#modifications">13. MODIFICATIONS AND INTERRUPTIONS</a><br><a href="#law">14. GOVERNING LAW</a><br><a href="#disputes">15. DISPUTE RESOLUTION</a><br><a href="#corrections">16. CORRECTIONS</a><br><a href="#disclaimer">17. DISCLAIMER</a><br><a href="#liability">18. LIMITATIONS OF LIABILITY</a><br><a href="#indemnification">19. INDEMNIFICATION</a><br><a href="#userdata">20. USER DATA</a><br><a href="#electronic">21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</a><br><a href="#california">22. CALIFORNIA USERS AND RESIDENTS</a><br><a href="#misc">23. MISCELLANEOUS</a><br>      <a href="#contact">24. CONTACT US</a><a name="_b6y29mp52qvx"></a><br><strong><h2 id="services">1. OUR SERVICES</h2></strong>The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.<br>The Services are not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), so if your interactions would be subjected to such laws, you may not use the Services. You may not use the Services in a way that would violate the Gramm-Leach-Bliley Act (GLBA).<br><strong><h2 id="ip">2. INTELLECTUAL PROPERTY RIGHTS</h2></strong><strong><h3>Our intellectual property</h3></strong>We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the " Content"), as well as the trademarks, service marks, and logos contained therein (the " Marks").<br>Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.<br>The Content and Marks are provided in or through the Services " AS IS" for your personal, non-commercial use only.<strong><h3>Your use of our Services</h3></strong>Subject to your compliance with these Legal Terms, including the " <a href="#prohibited">PROHIBITED ACTIVITIES</a>" section below, we grant you a non-exclusive, non-transferable, revocable license to:<ul><li>access the Services; and</li><li>download or print a copy of any portion of the Content to which you have properly gained access,</li></ul>solely for your personal, non-commercial use.<br>Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced,
        aggregated,
       republished,
       uploaded,
@@ -3874,7 +3870,7 @@ const TermsOfService = () => {
        certain data that you transmit to the Services for the purpose of managing the performance of the Services,
       as well as data relating to your use of the Services. Although we perform regular routine backups of data,
       you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall have no liability to you for any loss or corruption of any such data,
-      and you hereby waive any right of action against us arising from any such loss or corruption of such data.<br><strong><h2>21. ELECTRONIC COMMUNICATIONS,
+      and you hereby waive any right of action against us arising from any such loss or corruption of such data.<br>      <strong><h2 id="electronic">21. ELECTRONIC COMMUNICATIONS,
       TRANSACTIONS,
       AND SIGNATURES</h2></strong>Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.<br><strong><h2>22. CALIFORNIA USERS AND RESIDENTS</h2></strong>If any complaint
        with us is not satisfactorily resolved,
