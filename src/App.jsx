@@ -500,47 +500,17 @@ const PrivacyPolicy = () => {
       .legal-content strong { color: #000; }
     </style>
     <div class="legal-content">
-      <strong>
-      
-       </strong>
-       <strong>Last updated 
-       </strong>
-       <br>
-       <br>
-       <br>
-       This Privacy Notice
-       for 
-       
-       ("<strong>we</strong>," "<strong>us</strong>," or
-       "<strong>our</strong>"
-       ), describes how and why we might access, collect, store,
-       use, and/or share ("<strong>process</strong>") your personal information when you use our services (
-       "<strong>Services</strong>"), including when you:
-      
-       <ul>
-       <li>Visit our
-       website at 
-      
-       </li>
-       </ul>
-      
-       <ul>
-       <li>Download and
-       use our mobile application
-       (
-      
-       </li>
-       </ul>
-      
-       </li>
-       </ul>
-      
-       <ul>
-       <li>Engage with
-       us in other related ways, including any sales, marketing, or events
-       
-       </li>
-       </ul>
+      <h1>PRIVACY POLICY</h1>
+      <strong>Last updated November 10, 2025</strong>
+      <br>
+      <br>
+      <br>
+      This Privacy Notice for Anthroma LLC ("<strong>we</strong>," "<strong>us</strong>," or "<strong>our</strong>"), describes how and why we might access, collect, store, use, and/or share ("<strong>process</strong>") your personal information when you use our services ("<strong>Services</strong>"), including when you:
+      <ul>
+      <li>Visit our website at <a href="http://www.anthroma.com">http://www.anthroma.com</a> or any website of ours that links to this Privacy Notice</li>
+      <li>Download and use our mobile application (USCIS Case Tracker), or any other application of ours that links to this Privacy Notice</li>
+      <li>Engage with us in other related ways, including any sales, marketing, or events</li>
+      </ul>
        <strong>Questions or concerns? </strong>Reading this Privacy
        Notice will help you understand your privacy rights and choices. We are responsible for making
        decisions about how your personal information is processed. If you do not agree with our
@@ -615,11 +585,11 @@ const PrivacyPolicy = () => {
        Want to learn
        more about what we do with any information we collect? <a
        href="#toc">Review the Privacy Notice in full</a>.
-       <br>
-       <br>
-       <strong>
-       <h2>TABLE OF CONTENTS</h2>
-       </strong>    
+      <br>
+      <br>
+      <strong>
+      <h2 id="toc">TABLE OF CONTENTS</h2>
+      </strong>
        <a href="#infocollect">1. WHAT INFORMATION DO WE COLLECT?</a><br>
        <a href="#infouse">2. HOW DO WE PROCESS YOUR INFORMATION?</a><br>
        <a href="#whoshare">3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a><br>
@@ -634,11 +604,11 @@ const PrivacyPolicy = () => {
        <a href="#request">12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a>
        <br>
        <br>
-       <strong>
-       <h2 id="infocollect">1. WHAT INFORMATION DO WE COLLECT?</h2>
-       </strong><strong>
-       <h3>Personal information you disclose to us</h3>
-       </strong><strong><em>In
+      <strong>
+      <h2 id="infocollect">1. WHAT INFORMATION DO WE COLLECT?</h2>
+      </strong><strong>
+      <h3 id="personalinfo">Personal information you disclose to us</h3>
+      </strong><strong><em>In
        Short:</em></strong><strong><em> </em></strong><em>We collect personal
        information that you provide to
        us.</em>
@@ -649,11 +619,11 @@ const PrivacyPolicy = () => {
        express an interest in obtaining information
        about us or our products and Services, when you participate in activities on the Services, or
        otherwise when you contact us.
-       <br>
+      <br>
       
-       <strong>Sensitive Information.</strong>
-       When necessary, with your consent or as otherwise permitted by
-       applicable law, we process the following categories of sensitive information:
+      <strong id="sensitiveinfo">Sensitive Information.</strong>
+      When necessary, with your consent or as otherwise permitted by
+      applicable law, we process the following categories of sensitive information:
        
        <ul>
        <li>
