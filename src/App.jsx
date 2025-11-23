@@ -619,38 +619,19 @@ const PrivacyPolicy = () => {
        <br>
        <strong>
        <h2>TABLE OF CONTENTS</h2>
-       </strong>   
-       <a
-       href="#infocollect">1. WHAT INFORMATION DO WE
-       COLLECT?</a>
-       <a href="#infouse">2. HOW DO WE PROCESS YOUR INFORMATION?</a>
-       <a href="#whoshare">3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
-       INFORMATION?</a>
-       </a>
-      
-       <a
-       href="#inforetain">4. HOW LONG DO WE KEEP YOUR
-       INFORMATION?</a>
-      
-       <a href="#infosafe">5. HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
-      
-       <a
-       href="#infominors">6. DO WE COLLECT INFORMATION FROM
-       MINORS?</a>
-      
-       <a href="#privacyrights">7. WHAT ARE YOUR PRIVACY
-       RIGHTS?</a>
-       <a href="#DNT">8. CONTROLS FOR DO-NOT-TRACK FEATURES</a>
-       <a href="#uslaws">9. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY
-       RIGHTS?</a>
-      
-       <a
-       href="#policyupdates">10. DO WE MAKE UPDATES TO THIS
-       NOTICE?</a>
-       <a href="#contact">11. HOW CAN YOU CONTACT US ABOUT THIS
-       NOTICE?</a>
-       <a href="#request">12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
-       YOU?</a>
+       </strong>    
+       <a href="#infocollect">1. WHAT INFORMATION DO WE COLLECT?</a><br>
+       <a href="#infouse">2. HOW DO WE PROCESS YOUR INFORMATION?</a><br>
+       <a href="#whoshare">3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a><br>
+       <a href="#inforetain">4. HOW LONG DO WE KEEP YOUR INFORMATION?</a><br>
+       <a href="#infosafe">5. HOW DO WE KEEP YOUR INFORMATION SAFE?</a><br>
+       <a href="#infominors">6. DO WE COLLECT INFORMATION FROM MINORS?</a><br>
+       <a href="#privacyrights">7. WHAT ARE YOUR PRIVACY RIGHTS?</a><br>
+       <a href="#DNT">8. CONTROLS FOR DO-NOT-TRACK FEATURES</a><br>
+       <a href="#uslaws">9. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a><br>
+       <a href="#policyupdates">10. DO WE MAKE UPDATES TO THIS NOTICE?</a><br>
+       <a href="#contact">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a><br>
+       <a href="#request">12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a>
        <br>
        <br>
        <strong>
@@ -1956,11 +1937,6 @@ const PrivacyPolicy = () => {
        
        </td>
        </tr>
-       </tbody>
-       </table>
-      
-       <table>
-       <tbody>
        <tr>
        <td>
        
@@ -1995,15 +1971,12 @@ const PrivacyPolicy = () => {
        
        <br>
       
+       NO
+      
        <br>
        
        </td>
        </tr>
-       </tbody>
-       </table>
-      
-       <table>
-       <tbody>
        <tr>
        <td>
       
@@ -2103,6 +2076,8 @@ const PrivacyPolicy = () => {
        <td>
        
        <br>
+      
+       NO
       
        <br>
        
@@ -3837,9 +3812,7 @@ const TermsOfService = () => {
       " " <strong>we</strong>,
       " " <strong>us</strong>,
       " " <strong>our</strong>"), a company registered in New York, United States at 418 Broadway STE N, Albany, NY 12207.<br>We operate the website (the "<strong>Site</strong>"), the mobile application (the "<strong>App</strong>"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").<br>You can contact us by phone at 347-422-3329, email at support@anthroma.com, or by mail to 418 Broadway STE N, Albany, NY 12207, United States.<br>These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (" <strong>you</strong>"), and Anthroma LLC, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.<br><br>The
-       Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.<br>We recommend that you print a copy of these Legal Terms for your records.<br><strong><h2>TABLE OF CONTENTS</h2></strong><a href="#services">1. OUR SERVICES</a><a href="#ip">2. INTELLECTUAL PROPERTY RIGHTS</a><a href="#userreps"></a><a href="#userreps">3. USER REPRESENTATIONS</a><a href="#products"></a><a href="#products"></a><a href="#purchases"></a><a href="#purchases">4. PURCHASES AND PAYMENT</a><a href="#software"></a><a href="#software"></a><a href="#software"></a><a href="#prohibited"></a><a href="#prohibited">5. PROHIBITED ACTIVITIES</a><a href="#ugc"></a><a href="#ugc">6. USER GENERATED CONTRIBUTIONS</a><a href="#license"></a><a href="#license">7. CONTRIBUTION LICENSE</a><a href="#reviews"></a><a href="#reviews"></a><a href="#mobile"></a><a href="#mobile">8. MOBILE APPLICATION LICENSE</a><a href="#socialmedia"></a><a href="#socialmedia"></a><a href="#thirdparty"></a><a href="#thirdparty">9. THIRD-PARTY WEBSITES AND CONTENT</a><a href="#advertisers"></a><a href="#advertisers"></a><a href="#sitemanage"></a><a href="#sitemanage">10. SERVICES MANAGEMENT</a><a href="#ppyes"></a><a href="#ppyes">11. PRIVACY POLICY</a><a href="#ppno"></a><a href="#ppno"></a><a href="#dmca"></a><a href="#dmca"></a><a href="#terms"></a><a href="#terms">12. TERM AND TERMINATION</a><a href="#modifications"></a><a href="#modifications">13. MODIFICATIONS AND INTERRUPTIONS</a><a href="#law"></a><a href="#law">14. GOVERNING LAW</a><a href="#disputes"></a><a href="#disputes">15. DISPUTE RESOLUTION</a><a href="#corrections"></a><a href="#corrections">16. CORRECTIONS</a><a href="#disclaimer"></a><a href="#disclaimer">17. DISCLAIMER</a><a href="#liability"></a><a href="#liability">18. LIMITATIONS OF LIABILITY</a><a href="#indemnification"></a><a href="#indemnification">19. INDEMNIFICATION</a><a href="#userdata"></a><a href="#userdata">20. USER DATA</a><a href="#electronic"></a><a href="#electronic">21. ELECTRONIC COMMUNICATIONS,
-      TRANSACTIONS,
-      AND SIGNATURES</a><a href="#california"></a><a href="#california">22. CALIFORNIA USERS AND RESIDENTS</a><a href="#misc"></a><a href="#misc">23. MISCELLANEOUS</a><a href="#contact"></a><a href="#contact">24. CONTACT US</a><a name="_b6y29mp52qvx"></a><br><strong><h2>1. OUR SERVICES</h2></strong>The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly,
+       Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.<br>We recommend that you print a copy of these Legal Terms for your records.<br><strong><h2>TABLE OF CONTENTS</h2></strong><a href="#services">1. OUR SERVICES</a><br><a href="#ip">2. INTELLECTUAL PROPERTY RIGHTS</a><br><a href="#userreps">3. USER REPRESENTATIONS</a><br><a href="#purchases">4. PURCHASES AND PAYMENT</a><br><a href="#prohibited">5. PROHIBITED ACTIVITIES</a><br><a href="#ugc">6. USER GENERATED CONTRIBUTIONS</a><br><a href="#license">7. CONTRIBUTION LICENSE</a><br><a href="#mobile">8. MOBILE APPLICATION LICENSE</a><br><a href="#thirdparty">9. THIRD-PARTY WEBSITES AND CONTENT</a><br><a href="#sitemanage">10. SERVICES MANAGEMENT</a><br><a href="#ppyes">11. PRIVACY POLICY</a><br><a href="#terms">12. TERM AND TERMINATION</a><br><a href="#modifications">13. MODIFICATIONS AND INTERRUPTIONS</a><br><a href="#law">14. GOVERNING LAW</a><br><a href="#disputes">15. DISPUTE RESOLUTION</a><br><a href="#corrections">16. CORRECTIONS</a><br><a href="#disclaimer">17. DISCLAIMER</a><br><a href="#liability">18. LIMITATIONS OF LIABILITY</a><br><a href="#indemnification">19. INDEMNIFICATION</a><br><a href="#userdata">20. USER DATA</a><br><a href="#electronic">21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</a><br><a href="#california">22. CALIFORNIA USERS AND RESIDENTS</a><br><a href="#misc">23. MISCELLANEOUS</a><br><a href="#contact">24. CONTACT US</a><a name="_b6y29mp52qvx"></a><br><strong><h2>1. OUR SERVICES</h2></strong>The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly,
       those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws,
       if and to the extent local laws are applicable.<br>The Services are not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.),
       so if your interactions would be subjected to such laws,
