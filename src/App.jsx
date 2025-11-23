@@ -130,7 +130,7 @@ const Footer = ({ setPage }) => (
 
           <ul className="space-y-2 text-sm">
 
-            <li className="flex items-center"><Mail className="h-4 w-4 mr-2" /> support@anthroma.com</li>
+            <li className="flex items-center"><Mail className="h-4 w-4 mr-2" /> rui.luo@anthroma.com</li>
 
             <li>New York, NY</li>
 
@@ -545,7 +545,7 @@ const PrivacyPolicy = () => {
        Notice will help you understand your privacy rights and choices. We are responsible for making
        decisions about how your personal information is processed. If you do not agree with our
        policies and practices, please do not use our Services. If
-       you still have any questions or concerns, please contact us at .
+       you still have any questions or concerns, please contact us at rui.luo@anthroma.com.
        
        <br>
        <br>
@@ -3158,7 +3158,7 @@ const PrivacyPolicy = () => {
        emailing
        us
        at
-       
+       rui.luo@anthroma.com
        ,
       
        or
@@ -3708,7 +3708,8 @@ const PrivacyPolicy = () => {
        email
        us
        at
-      
+       rui.luo@anthroma.com
+       or
        contact
        us
        by
@@ -3717,7 +3718,7 @@ const PrivacyPolicy = () => {
       
        <br>
       
-       ,
+       Anthroma LLC, 418 Broadway STE N, Albany, NY 12207, United States
       
        <br>
       
@@ -3835,7 +3836,7 @@ const TermsOfService = () => {
       <strong>Last updated</strong><br><br><strong><h2>AGREEMENT TO OUR LEGAL TERMS</h2></strong><a name="_6aa3gkhykvst"></a>We are (" <strong>Company</strong>,
       " " <strong>we</strong>,
       " " <strong>us</strong>,
-      " " <strong>our</strong>"), a company registered in , at , , <br>We operate the website (the "<strong>Site</strong>"), the mobile application (the "<strong>App</strong>"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").<br>You can contact us by phone at , email at , or by mail to , , .<br>These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (" <strong>you</strong>"), and , concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.<br><br>The
+      " " <strong>our</strong>"), a company registered in New York, United States at 418 Broadway STE N, Albany, NY 12207.<br>We operate the website (the "<strong>Site</strong>"), the mobile application (the "<strong>App</strong>"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").<br>You can contact us by phone at 347-422-3329, email at rui.luo@anthroma.com, or by mail to 418 Broadway STE N, Albany, NY 12207, United States.<br>These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (" <strong>you</strong>"), and Anthroma LLC, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.<br><br>The
        Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.<br>We recommend that you print a copy of these Legal Terms for your records.<br><strong><h2>TABLE OF CONTENTS</h2></strong><a href="#services">1. OUR SERVICES</a><a href="#ip">2. INTELLECTUAL PROPERTY RIGHTS</a><a href="#userreps"></a><a href="#userreps">3. USER REPRESENTATIONS</a><a href="#products"></a><a href="#products"></a><a href="#purchases"></a><a href="#purchases">4. PURCHASES AND PAYMENT</a><a href="#software"></a><a href="#software"></a><a href="#software"></a><a href="#prohibited"></a><a href="#prohibited">5. PROHIBITED ACTIVITIES</a><a href="#ugc"></a><a href="#ugc">6. USER GENERATED CONTRIBUTIONS</a><a href="#license"></a><a href="#license">7. CONTRIBUTION LICENSE</a><a href="#reviews"></a><a href="#reviews"></a><a href="#mobile"></a><a href="#mobile">8. MOBILE APPLICATION LICENSE</a><a href="#socialmedia"></a><a href="#socialmedia"></a><a href="#thirdparty"></a><a href="#thirdparty">9. THIRD-PARTY WEBSITES AND CONTENT</a><a href="#advertisers"></a><a href="#advertisers"></a><a href="#sitemanage"></a><a href="#sitemanage">10. SERVICES MANAGEMENT</a><a href="#ppyes"></a><a href="#ppyes">11. PRIVACY POLICY</a><a href="#ppno"></a><a href="#ppno"></a><a href="#dmca"></a><a href="#dmca"></a><a href="#terms"></a><a href="#terms">12. TERM AND TERMINATION</a><a href="#modifications"></a><a href="#modifications">13. MODIFICATIONS AND INTERRUPTIONS</a><a href="#law"></a><a href="#law">14. GOVERNING LAW</a><a href="#disputes"></a><a href="#disputes">15. DISPUTE RESOLUTION</a><a href="#corrections"></a><a href="#corrections">16. CORRECTIONS</a><a href="#disclaimer"></a><a href="#disclaimer">17. DISCLAIMER</a><a href="#liability"></a><a href="#liability">18. LIMITATIONS OF LIABILITY</a><a href="#indemnification"></a><a href="#indemnification">19. INDEMNIFICATION</a><a href="#userdata"></a><a href="#userdata">20. USER DATA</a><a href="#electronic"></a><a href="#electronic">21. ELECTRONIC COMMUNICATIONS,
       TRANSACTIONS,
       AND SIGNATURES</a><a href="#california"></a><a href="#california">22. CALIFORNIA USERS AND RESIDENTS</a><a href="#misc"></a><a href="#misc">23. MISCELLANEOUS</a><a href="#contact"></a><a href="#contact">24. CONTACT US</a><a name="_b6y29mp52qvx"></a><br><strong><h2>1. OUR SERVICES</h2></strong>The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly,
@@ -3907,7 +3908,7 @@ const TermsOfService = () => {
       you can contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 North Market Blvd.,
       Suite N 112,
       Sacramento,
-      California 95834 or by telephone at (800) 952-5210 or (916) 445-1254.<br><strong><h2>23. MISCELLANEOUS</h2></strong>These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Legal Terms and the lack of signing by the parties hereto to execute these Legal Terms.<br><strong><h2>24. CONTACT US</h2></strong>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:<br><strong></strong></strong><strong>, </strong><strong></strong><strong></strong><strong><strong>Phone: </strong></strong><strong><strong></strong></strong></strong><strong><strong></strong></strong>
+      California 95834 or by telephone at (800) 952-5210 or (916) 445-1254.<br><strong><h2>23. MISCELLANEOUS</h2></strong>These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Legal Terms and the lack of signing by the parties hereto to execute these Legal Terms.<br><strong><h2>24. CONTACT US</h2></strong>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:<br><strong>Anthroma LLC</strong><br>418 Broadway STE N<br>Albany, NY 12207<br>United States<br><strong>Phone: </strong>347-422-3329<br><strong>Email: </strong><a href="mailto:rui.luo@anthroma.com">rui.luo@anthroma.com</a>
     </div>
   `;
 
