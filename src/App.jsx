@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
 
 
 
@@ -6,7 +7,10 @@ import { Menu, X, ChevronRight, Shield, Users, Smartphone, Lock, FileText, Check
 
 // --- Components ---
 
-const Navbar = ({ currentPage, setPage }) => {
+const Navbar = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isActive = (path) => location.pathname === path;
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +22,7 @@ const Navbar = ({ currentPage, setPage }) => {
 
         <div className="flex justify-between h-16 items-center">
 
-          <div className="flex items-center cursor-pointer" onClick={() => setPage('home')}>
+          <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
 
             <Shield className="h-8 w-8 text-blue-400 mr-2" />
 
@@ -26,17 +30,17 @@ const Navbar = ({ currentPage, setPage }) => {
 
           </div>
 
-          
+
 
           {/* Desktop Menu */}
 
           <div className="hidden md:flex space-x-8">
 
-            <button onClick={() => setPage('home')} className={`${currentPage === 'home' ? 'text-blue-400' : 'text-gray-300 hover:text-white'} transition-colors`}>Home</button>
+            <Link to="/" className={`${isActive('/') ? 'text-blue-400' : 'text-gray-300 hover:text-white'} transition-colors`}>Home</Link>
 
-            <button onClick={() => setPage('privacy')} className={`${currentPage === 'privacy' ? 'text-blue-400' : 'text-gray-300 hover:text-white'} transition-colors`}>Privacy Policy</button>
+            <Link to="/privacypolicy" className={`${isActive('/privacypolicy') ? 'text-blue-400' : 'text-gray-300 hover:text-white'} transition-colors`}>Privacy Policy</Link>
 
-            <button onClick={() => setPage('terms')} className={`${currentPage === 'terms' ? 'text-blue-400' : 'text-gray-300 hover:text-white'} transition-colors`}>Terms of Service</button>
+            <Link to="/termsofservice" className={`${isActive('/termsofservice') ? 'text-blue-400' : 'text-gray-300 hover:text-white'} transition-colors`}>Terms of Service</Link>
 
           </div>
 
@@ -64,11 +68,11 @@ const Navbar = ({ currentPage, setPage }) => {
 
           <div className="flex flex-col space-y-3 pt-4">
 
-            <button onClick={() => { setPage('home'); setIsOpen(false); }} className="text-left text-gray-300 hover:text-white py-2 border-b border-slate-700">Home</button>
+            <Link to="/" onClick={() => setIsOpen(false)} className="text-left text-gray-300 hover:text-white py-2 border-b border-slate-700">Home</Link>
 
-            <button onClick={() => { setPage('privacy'); setIsOpen(false); }} className="text-left text-gray-300 hover:text-white py-2 border-b border-slate-700">Privacy Policy</button>
+            <Link to="/privacypolicy" onClick={() => setIsOpen(false)} className="text-left text-gray-300 hover:text-white py-2 border-b border-slate-700">Privacy Policy</Link>
 
-            <button onClick={() => { setPage('terms'); setIsOpen(false); }} className="text-left text-gray-300 hover:text-white py-2">Terms of Service</button>
+            <Link to="/termsofservice" onClick={() => setIsOpen(false)} className="text-left text-gray-300 hover:text-white py-2">Terms of Service</Link>
 
           </div>
 
@@ -82,7 +86,7 @@ const Navbar = ({ currentPage, setPage }) => {
 
 };
 
-const Footer = ({ setPage }) => (
+const Footer = () => (
 
   <footer className="bg-slate-900 text-slate-400 py-12">
 
@@ -114,11 +118,11 @@ const Footer = ({ setPage }) => (
 
           <ul className="space-y-2 text-sm">
 
-            <li><button onClick={() => setPage('privacy')} className="hover:text-blue-400 transition-colors">Privacy Policy</button></li>
+            <li><Link to="/privacypolicy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link></li>
 
-            <li><button onClick={() => setPage('terms')} className="hover:text-blue-400 transition-colors">Terms of Service</button></li>
+            <li><Link to="/termsofservice" className="hover:text-blue-400 transition-colors">Terms of Service</Link></li>
 
-            <li><button onClick={() => setPage('privacy')} className="hover:text-blue-400 transition-colors">Data Deletion Request</button></li>
+            <li><Link to="/privacypolicy" className="hover:text-blue-400 transition-colors">Data Deletion Request</Link></li>
 
           </ul>
 
@@ -154,7 +158,7 @@ const Footer = ({ setPage }) => (
 
 // --- Page Views ---
 
-const Home = ({ setPage }) => {
+const Home = () => {
 
   return (
 
@@ -192,11 +196,11 @@ const Home = ({ setPage }) => {
 
                 </button>
 
-                <button onClick={() => setPage('privacy')} className="bg-white text-slate-700 border border-slate-300 px-8 py-3 rounded-lg font-semibold hover:bg-slate-50 transition-all">
+                <Link to="/privacypolicy" className="bg-white text-slate-700 border border-slate-300 px-8 py-3 rounded-lg font-semibold hover:bg-slate-50 transition-all flex items-center justify-center">
 
                   View Privacy Policy
 
-                </button>
+                </Link>
 
               </div>
 
@@ -210,31 +214,31 @@ const Home = ({ setPage }) => {
 
                 <div className="bg-white rounded-xl overflow-hidden h-full min-h-[400px] flex flex-col">
 
-                    <div className="bg-blue-600 h-16 flex items-center justify-center text-white font-bold">Case Tracker</div>
+                  <div className="bg-blue-600 h-16 flex items-center justify-center text-white font-bold">Case Tracker</div>
 
-                    <div className="p-4 space-y-4">
+                  <div className="p-4 space-y-4">
 
-                        <div className="h-24 bg-green-50 rounded-lg border border-green-100 p-3">
+                    <div className="h-24 bg-green-50 rounded-lg border border-green-100 p-3">
 
-                            <div className="text-xs text-green-800 font-bold mb-1">APPROVED</div>
+                      <div className="text-xs text-green-800 font-bold mb-1">APPROVED</div>
 
-                            <div className="text-sm text-slate-700">Case IOE9238...</div>
+                      <div className="text-sm text-slate-700">Case IOE9238...</div>
 
-                            <div className="text-xs text-slate-400 mt-2">Updated 2 mins ago</div>
-
-                        </div>
-
-                        <div className="h-24 bg-slate-50 rounded-lg border border-slate-100 p-3">
-
-                            <div className="text-xs text-blue-800 font-bold mb-1">PROCESSING</div>
-
-                            <div className="text-sm text-slate-700">Case MSC2190...</div>
-
-                            <div className="text-xs text-slate-400 mt-2">Est. wait: 3 months</div>
-
-                        </div>
+                      <div className="text-xs text-slate-400 mt-2">Updated 2 mins ago</div>
 
                     </div>
+
+                    <div className="h-24 bg-slate-50 rounded-lg border border-slate-100 p-3">
+
+                      <div className="text-xs text-blue-800 font-bold mb-1">PROCESSING</div>
+
+                      <div className="text-sm text-slate-700">Case MSC2190...</div>
+
+                      <div className="text-xs text-slate-400 mt-2">Est. wait: 3 months</div>
+
+                    </div>
+
+                  </div>
 
                 </div>
 
@@ -280,7 +284,7 @@ const Home = ({ setPage }) => {
 
                 <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mb-4">
 
-                   <CheckCircle className="h-6 w-6 text-blue-600" />
+                  <CheckCircle className="h-6 w-6 text-blue-600" />
 
                 </div>
 
@@ -298,7 +302,7 @@ const Home = ({ setPage }) => {
 
                 <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mb-4">
 
-                   <Users className="h-6 w-6 text-blue-600" />
+                  <Users className="h-6 w-6 text-blue-600" />
 
                 </div>
 
@@ -316,7 +320,7 @@ const Home = ({ setPage }) => {
 
                 <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mb-4">
 
-                   <Lock className="h-6 w-6 text-blue-600" />
+                  <Lock className="h-6 w-6 text-blue-600" />
 
                 </div>
 
@@ -324,7 +328,7 @@ const Home = ({ setPage }) => {
 
                 <p className="mt-2 text-slate-500 leading-relaxed">
 
-                   Your privacy is paramount. We employ industry-standard encryption and never sell user data.
+                  Your privacy is paramount. We employ industry-standard encryption and never sell user data.
 
                 </p>
 
@@ -338,9 +342,9 @@ const Home = ({ setPage }) => {
 
       </section>
 
-       {/* Product Section */}
+      {/* Product Section */}
 
-       <section className="py-16 bg-white border-t border-slate-100">
+      <section className="py-16 bg-white border-t border-slate-100">
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -348,61 +352,61 @@ const Home = ({ setPage }) => {
 
             <div>
 
-               <h2 className="text-3xl font-extrabold text-slate-900 mb-6">Anthroma Case Tracker</h2>
+              <h2 className="text-3xl font-extrabold text-slate-900 mb-6">Anthroma Case Tracker</h2>
 
-               <p className="text-lg text-slate-500 mb-6 leading-relaxed">
+              <p className="text-lg text-slate-500 mb-6 leading-relaxed">
 
-                 Our flagship mobile application connects directly to USCIS public APIs to fetch the latest status of your application. 
+                Our flagship mobile application connects directly to USCIS public APIs to fetch the latest status of your application.
 
-               </p>
+              </p>
 
-               <ul className="space-y-4">
+              <ul className="space-y-4">
 
-                  {[
+                {[
 
-                    'Real-time push notifications for status changes',
+                  'Real-time push notifications for status changes',
 
-                    'Historical data analysis and prediction',
+                  'Historical data analysis and prediction',
 
-                    'Secure, local storage of case numbers',
+                  'Secure, local storage of case numbers',
 
-                    'Clean, ad-free interface'
+                  'Clean, ad-free interface'
 
-                  ].map((item, i) => (
+                ].map((item, i) => (
 
-                    <li key={i} className="flex items-start">
+                  <li key={i} className="flex items-start">
 
-                      <div className="flex-shrink-0">
+                    <div className="flex-shrink-0">
 
-                        <CheckCircle className="h-6 w-6 text-green-500" />
+                      <CheckCircle className="h-6 w-6 text-green-500" />
 
-                      </div>
+                    </div>
 
-                      <p className="ml-3 text-base text-slate-600">{item}</p>
+                    <p className="ml-3 text-base text-slate-600">{item}</p>
 
-                    </li>
+                  </li>
 
-                  ))}
+                ))}
 
-               </ul>
+              </ul>
 
-               <div className="mt-8 inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-medium">
+              <div className="mt-8 inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-medium">
 
-                 Current Status: Public Beta
+                Current Status: Public Beta
 
-               </div>
+              </div>
 
             </div>
 
             <div className="mt-10 lg:mt-0 bg-slate-50 rounded-xl p-8 border border-slate-100">
 
-                {/* Product Mockup Placeholder */}
+              {/* Product Mockup Placeholder */}
 
-                <div className="aspect-w-16 aspect-h-9 bg-slate-200 rounded-lg flex items-center justify-center text-slate-400">
+              <div className="aspect-w-16 aspect-h-9 bg-slate-200 rounded-lg flex items-center justify-center text-slate-400">
 
-                    [App Interface Demo]
+                [App Interface Demo]
 
-                </div>
+              </div>
 
             </div>
 
@@ -458,13 +462,13 @@ const Home = ({ setPage }) => {
 
                 <div className="flex justify-center space-x-3">
 
-                   <a href="#" className="text-slate-400 hover:text-blue-700">
+                  <a href="#" className="text-slate-400 hover:text-blue-700">
 
-                     <span className="sr-only">LinkedIn</span>
+                    <span className="sr-only">LinkedIn</span>
 
-                     <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
 
-                   </a>
+                  </a>
 
                 </div>
 
@@ -3859,35 +3863,29 @@ const TermsOfService = () => {
 
 const App = () => {
 
-  const [currentPage, setPage] = useState('home');
-
-  // Scroll to top on page change
+  const location = useLocation();
 
   useEffect(() => {
-
     window.scrollTo(0, 0);
-
-  }, [currentPage]);
+  }, [location.pathname]);
 
   return (
 
     <div className="font-sans antialiased text-slate-900">
 
-      <Navbar currentPage={currentPage} setPage={setPage} />
+      <Navbar />
 
-      
+
 
       <main>
-
-        {currentPage === 'home' && <Home setPage={setPage} />}
-
-        {currentPage === 'privacy' && <PrivacyPolicy />}
-
-        {currentPage === 'terms' && <TermsOfService />}
-
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/termsofservice" element={<TermsOfService />} />
+        </Routes>
       </main>
 
-      <Footer setPage={setPage} />
+      <Footer />
 
     </div>
 
