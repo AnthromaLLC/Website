@@ -43,7 +43,9 @@ jobs:
           fi
       
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
       
       - name: Verify build output
         run: |
