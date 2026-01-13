@@ -631,7 +631,7 @@ const PrivacyPolicy = () => {
        
        <ul>
        <li>
-       
+      Receipt Number of USCIS Case
        </li>
        </ul>
       
@@ -706,12 +706,7 @@ const PrivacyPolicy = () => {
        </ul>
       
        <ul>
-       <li><strong>To fulfill and
-       manage your orders. </strong>We may process your
-       information to 
-       fulfill
-       and manage your orders, payments, returns, and exchanges
-       made through the Services.
+       <li><strong>Receipt Number of USCIS Case. </strong>Used to query updates on USCIS API.
       
        </li>
        </ul>
