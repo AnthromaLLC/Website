@@ -706,7 +706,7 @@ const PrivacyPolicy = () => {
        </ul>
       
        <ul>
-       <li><strong>Receipt Number of USCIS Case. </strong>Used to query updates on USCIS API.
+       <li><strong>Receipt Number of USCIS Case. </strong>We collect the case number you provide solely to facilitate the retrieval of case status updates from USCIS Case Status API. This information is required to provide the core functionality of the Service.
       
        </li>
        </ul>
