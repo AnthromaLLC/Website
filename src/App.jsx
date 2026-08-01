@@ -440,9 +440,9 @@ const Home = () => {
 
               { name: 'Roy Luo', role: 'Co-Founder / Engineering' },
 
-              { name: 'Lucas Peng', role: 'Lead Developer' },
+              { name: 'Lucas Peng', role: 'Operations & Strategy' },
 
-              { name: 'Harry Wen', role: 'Operations & Strategy' }
+              { name: 'Harry Wen', role: 'CTO' }
 
             ].map((member) => (
 
